@@ -11,10 +11,10 @@ date = datetime.datetime.now()
 start = datetime.datetime(date.year, date.month, date.day, 10, 22, 0)
 
 t = datetime.datetime.now()
-print(waktu saat ini: {t})
-print(start)
+print(f"waktu saat ini: {t}")
+print(f"waktu program dimulai: {start}")
 remaining_time = start-t
-print(remaining_time)
+print(f"waktu yang ditunggu: {remaining_time}")
 time.sleep(remaining_time.seconds)
 
 try:
